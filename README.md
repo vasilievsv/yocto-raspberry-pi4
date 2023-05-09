@@ -28,21 +28,13 @@ $ apt install build-essential chrpath diffstat gawk libncurses5-dev python3-dist
 ```
 
 #### NEED FIX
-```
 В процессе сборки ругается на virt.c надо его закоментить
-
+```
 nano meta-virtualization/recipes-kernel/linux-yocto_virtualization.inc
 ```
-https://raspberrypi.stackexchange.com/questions/124004/detect-rpi4-as-usb-network-interface-g-ether-dwc2
-https://omar2cloud.github.io/rasp/gitlab_runner/
-https://stackoverflow.com/questions/30059784/docker-access-to-raspberry-pi-gpio-pins
-```
-
-
 
 ```
 $ modprobe g_ether host_addr=00:dc:c8:f7:75:05 dev_addr=00:dd:dc:eb:6d:f1
-
 
 [   71.500508] using random self ethernet address
 [   71.505083] using random host ethernet address
@@ -87,4 +79,7 @@ https://learn.adafruit.com/turning-your-raspberry-pi-zero-into-a-usb-gadget/ip-a
 https://stackoverflow.com/questions/59754556/start-an-electron-app-at-boot-on-raspberry-pi-3-with-yocto
 https://stackoverflow.com/questions/28165774/start-a-mono-app-fullscreen-on-a-raspberry
 https://forum.beagleboard.org/t/ethernet-usb0-and-dnsmasq/31973
+https://raspberrypi.stackexchange.com/questions/124004/detect-rpi4-as-usb-network-interface-g-ether-dwc2
+https://omar2cloud.github.io/rasp/gitlab_runner/
+https://stackoverflow.com/questions/30059784/docker-access-to-raspberry-pi-gpio-pins
 ```
