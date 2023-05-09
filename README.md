@@ -1,15 +1,6 @@
 ## Образ Raspberry Pi 4 
 
 
-## gitlab runner
-```
-https://dev.to/omarcloud20/gitlab-runner-on-raspberry-pi-4-build-push-docker-images-to-docker-hub-using-gitlab-runner-on-gitlab-7m3
-
-```
-
-
-
-
 ```
 - meta-mybox-os-tune (Абстрагированый от железа слой - кастомизации стоковой системы )
 - meta-mybox-rpi64 ( Рецепты для  железа, набор образов )
@@ -82,4 +73,11 @@ https://forum.beagleboard.org/t/ethernet-usb0-and-dnsmasq/31973
 https://raspberrypi.stackexchange.com/questions/124004/detect-rpi4-as-usb-network-interface-g-ether-dwc2
 https://omar2cloud.github.io/rasp/gitlab_runner/
 https://stackoverflow.com/questions/30059784/docker-access-to-raspberry-pi-gpio-pins
+```
+
+
+## gitlab runner
+```
+https://dev.to/omarcloud20/gitlab-runner-on-raspberry-pi-4-build-push-docker-images-to-docker-hub-using-gitlab-runner-on-gitlab-7m3
+
 ```
