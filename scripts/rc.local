@@ -1,0 +1,7 @@
+#!/bin/bash
+
+dhcpcd
+sleep 1s
+./home/root/usb_ether.sh
+
+exit 0
